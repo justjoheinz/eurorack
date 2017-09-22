@@ -1,0 +1,329 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:or-gate-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "OR Gate"
+Date "2017-09-20"
+Rev "0.1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio-Jack-2_Switch Jack1
+U 1 1 59BEDE4E
+P 4500 2750
+F 0 "Jack1" H 4500 2925 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 2675 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 2850 50  0001 C CNN
+F 3 "" H 4750 2850 50  0001 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 59BEE01C
+P 4300 2900
+F 0 "#PWR1" H 4300 2650 50  0001 C CNN
+F 1 "GND" H 4300 2750 50  0000 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Jack2
+U 1 1 59C15CE7
+P 4500 3350
+F 0 "Jack2" H 4500 3525 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 3275 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 3450 50  0001 C CNN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 59C15CED
+P 4300 3500
+F 0 "#PWR2" H 4300 3250 50  0001 C CNN
+F 1 "GND" H 4300 3350 50  0000 C CNN
+F 2 "" H 4300 3500 50  0001 C CNN
+F 3 "" H 4300 3500 50  0001 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Jack4
+U 1 1 59C15D8B
+P 4500 4600
+F 0 "Jack4" H 4450 4775 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 4525 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 4700 50  0001 C CNN
+F 3 "" H 4750 4700 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 59C15D91
+P 4300 4800
+F 0 "#PWR4" H 4300 4550 50  0001 C CNN
+F 1 "GND" H 4300 4650 50  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Jack3
+U 1 1 59C15ECE
+P 4500 4000
+F 0 "Jack3" H 4500 4175 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 3925 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 4100 50  0001 C CNN
+F 3 "" H 4750 4100 50  0001 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Jack5
+U 1 1 59C15EF6
+P 4500 5200
+F 0 "Jack5" H 4500 5375 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 5125 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 5300 50  0001 C CNN
+F 3 "" H 4750 5300 50  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 59C15EFD
+P 4300 5350
+F 0 "#PWR5" H 4300 5100 50  0001 C CNN
+F 1 "GND" H 4300 5200 50  0000 C CNN
+F 2 "" H 4300 5350 50  0001 C CNN
+F 3 "" H 4300 5350 50  0001 C CNN
+	1    4300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Output1
+U 1 1 59C17451
+P 4500 6500
+F 0 "Output1" H 4500 6675 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 6425 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 6600 50  0001 C CNN
+F 3 "" H 4750 6600 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 59C17457
+P 4300 6650
+F 0 "#PWR7" H 4300 6400 50  0001 C CNN
+F 1 "GND" H 4300 6500 50  0000 C CNN
+F 2 "" H 4300 6650 50  0001 C CNN
+F 3 "" H 4300 6650 50  0001 C CNN
+	1    4300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-2_Switch Jack6
+U 1 1 59C174B3
+P 4500 5800
+F 0 "Jack6" H 4500 5975 50  0000 C CNN
+F 1 "Audio-Jack-2_Switch" H 4725 5725 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4750 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+	1    4500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 59C174B9
+P 4300 5950
+F 0 "#PWR6" H 4300 5700 50  0001 C CNN
+F 1 "GND" H 4300 5800 50  0000 C CNN
+F 2 "" H 4300 5950 50  0001 C CNN
+F 3 "" H 4300 5950 50  0001 C CNN
+	1    4300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 59C17594
+P 5350 2650
+F 0 "D1" H 5350 2750 50  0000 C CNN
+F 1 "1N4001" H 5350 2550 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5350 2650 50  0001 C CNN
+F 3 "" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 59C175EB
+P 5350 3250
+F 0 "D2" H 5350 3350 50  0000 C CNN
+F 1 "1N4001" H 5350 3150 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5350 3250 50  0001 C CNN
+F 3 "" H 5350 3250 50  0001 C CNN
+	1    5350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D3
+U 1 1 59C17629
+P 5350 3900
+F 0 "D3" H 5350 4000 50  0000 C CNN
+F 1 "1N4001" H 5350 3800 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5350 3900 50  0001 C CNN
+F 3 "" H 5350 3900 50  0001 C CNN
+	1    5350 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D4
+U 1 1 59C1766D
+P 5350 4500
+F 0 "D4" H 5350 4600 50  0000 C CNN
+F 1 "1N4001" H 5350 4400 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5350 4500 50  0001 C CNN
+F 3 "" H 5350 4500 50  0001 C CNN
+	1    5350 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D5
+U 1 1 59C176BA
+P 5350 5100
+F 0 "D5" H 5350 5200 50  0000 C CNN
+F 1 "1N4001" H 5350 5000 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5350 5100 50  0001 C CNN
+F 3 "" H 5350 5100 50  0001 C CNN
+	1    5350 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D6
+U 1 1 59C17705
+P 5350 5700
+F 0 "D6" H 5350 5800 50  0000 C CNN
+F 1 "1N4001" H 5350 5600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5350 5700 50  0001 C CNN
+F 3 "" H 5350 5700 50  0001 C CNN
+	1    5350 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 59C1776E
+P 5500 6750
+F 0 "R1" V 5580 6750 50  0000 C CNN
+F 1 "10k" V 5500 6750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 6750 50  0001 C CNN
+F 3 "" H 5500 6750 50  0001 C CNN
+	1    5500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR8
+U 1 1 59C1780B
+P 5500 6900
+F 0 "#PWR8" H 5500 6650 50  0001 C CNN
+F 1 "GND" H 5500 6750 50  0000 C CNN
+F 2 "" H 5500 6900 50  0001 C CNN
+F 3 "" H 5500 6900 50  0001 C CNN
+	1    5500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2850 4300 2900
+Wire Wire Line
+	4300 3450 4300 3500
+Wire Wire Line
+	4300 4700 4300 4800
+Wire Wire Line
+	4300 5300 4300 5350
+Wire Wire Line
+	4300 6600 4300 6650
+Wire Wire Line
+	4300 5900 4300 5950
+Wire Wire Line
+	5500 2650 5500 6600
+Connection ~ 5500 3250
+Connection ~ 5500 3900
+Connection ~ 5500 4500
+Connection ~ 5500 5100
+Connection ~ 5500 5700
+Wire Wire Line
+	4700 6400 5500 6400
+Connection ~ 5500 6400
+Wire Wire Line
+	4700 5700 5200 5700
+Wire Wire Line
+	4700 5100 5200 5100
+Wire Wire Line
+	4700 4500 5200 4500
+Wire Wire Line
+	4700 3900 5200 3900
+Wire Wire Line
+	4700 3250 5200 3250
+Wire Wire Line
+	4700 2650 5200 2650
+NoConn ~ 4700 2750
+NoConn ~ 4700 3350
+NoConn ~ 4700 4000
+NoConn ~ 4700 4600
+NoConn ~ 4700 5200
+NoConn ~ 4700 5800
+NoConn ~ 4700 6500
+$Comp
+L GND #PWR3
+U 1 1 59C17BCF
+P 4300 4100
+F 0 "#PWR3" H 4300 3850 50  0001 C CNN
+F 1 "GND" H 4300 3950 50  0000 C CNN
+F 2 "" H 4300 4100 50  0001 C CNN
+F 3 "" H 4300 4100 50  0001 C CNN
+	1    4300 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
